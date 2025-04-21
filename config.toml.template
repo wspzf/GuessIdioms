@@ -1,0 +1,22 @@
+[GuessIdioms]
+# 插件基本设置
+enable = true
+commands = ["看图猜成语", "成语猜猜", "猜成语"]
+command-tip = "发送\"看图猜成语\"开始游戏"
+
+# 游戏设置
+rounds-per-game = 5  # 每局游戏轮数
+initial-wait-time = 10  # 开始等待时间(秒)
+hint-interval = 15  # 提示间隔时间(秒)
+max-hints = 2  # 最大提示次数
+round-timeout = 60  # 每轮最长时间(秒)
+
+# API设置
+api-url = "https://xiaoapi.cn/API/game_ktccy.php"
+
+# 调试设置
+debug-mode = false  # 调试模式
+
+# 积分设置
+base-points = 5  # 每题基础积分
+bonus-points = [10, 5, 2]  # 排名奖励积分 
